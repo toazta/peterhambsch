@@ -10,6 +10,23 @@
 </head>
 <body>
   <h1>Hallo Peter!</h1>
+
+  <div id="vote-options" class="vote-options">
+    <button onClick="vote(1)">Vote Up </button>
+    <button onClick="vote(-1)">Vote Down </button>
+    <button onClick="showHistoricVotes()">History </button>
+      
+  <div>
+    <img id="image-to-vote-on" class="col-lg"></img>
+    </div>
+    
+    </div>
+  
+    <div id="vote-results"  class="vote-results">
+    <button onClick="showVoteOptions()">Show Vote Options</button>
+      <div id="grid" class="imgrid"/>
+   </div>
+
   <footer>
     <small>© <script>document.write(new Date().getFullYear())</script> Dennis Oswald</small>
   </footer>
