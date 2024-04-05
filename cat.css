@@ -1,0 +1,13 @@
+.catpic {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  border: 5px double gray;
+  margin: auto;
+  max-height: 100%;
+  position: fixed;
+}
+.cat_information {
+  display: grid;
+  justify-content: center;
+}
